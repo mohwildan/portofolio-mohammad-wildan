@@ -6,7 +6,6 @@ import {
   Link,
   Menu,
   MenuButton,
-  MenuItem,
   Stack,
   useColorModeValue,
 } from "@chakra-ui/react";
