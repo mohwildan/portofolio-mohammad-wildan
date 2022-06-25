@@ -47,7 +47,6 @@ const Navbar = (props: any) => {
         display="flex"
         p={2}
         maxW="container.md"
-        flexWrap="wrap"
         alignItems="center"
         justifyContent="space-between"
       >
@@ -64,7 +63,7 @@ const Navbar = (props: any) => {
           <LinkItem href="/contact">Contact</LinkItem>
         </Stack>
 
-        <Box flex={1} align="right" >
+        <Box display="flex" alignSelf="flex-end">
         <ToggleDarkMode />
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
             <Menu isLazy>
