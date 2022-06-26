@@ -1,6 +1,7 @@
 import { Box, Container } from "@chakra-ui/react";
 import Head from "next/head";
 import { FC, ReactNode } from "react";
+import Footer from "../Footer";
 import Navbar from "../Navbar";
 
 interface Porps {
@@ -13,12 +14,11 @@ const Main: FC<Porps> = ({ children }) => {
       <Head>
         <title>Mohammad Wildan - Home</title>
       </Head>
-    <Navbar />
+      <Navbar />
       <Container maxW="container.md" pt="8rem">
         {children}
-
-        {/* footer */}
       </Container>
+      <Footer />
     </Box>
   );
 };

@@ -3,7 +3,7 @@ import { FC, ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
-  delay: number;
+  delay?: number;
 }
 
 const Sections: FC<Props> = ({ children, delay }) => {
