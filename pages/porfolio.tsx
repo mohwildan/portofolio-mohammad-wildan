@@ -36,7 +36,7 @@ Prisma ORM , Posgres SQL, Next Auth"
               linkLive="https://mechamaru.netlify.app"
               linkCode="https://github.com/mohwildan/Next-styled-components"
             >
-              menawarkan jasa pembuatan desing website yang menarik
+              menawarkan jasa pembuatan design website yang menarik
             </PorfolioGrid>
           </Sections>
           <Sections delay={0.2}>

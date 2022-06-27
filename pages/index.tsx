@@ -35,7 +35,7 @@ const Home: NextPage = () => {
             </Heading>
             <p>
               Front End Web Developer{" "}
-              <span style={{ color: "#F73D93" }}>/</span> Responsif Web Desing
+              <span style={{ color: "#F73D93" }}>/</span> Responsif Web Design
             </p>
           </Box>
           <Box

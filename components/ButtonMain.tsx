@@ -4,9 +4,10 @@ import { FC, ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
+  props?: any
 }
 
-const ButtonMain: FC<Props> = ({ children }) => {
+const ButtonMain: FC<Props> = ({ children, props }) => {
   return (
     <Box display="flex" alignItems="center" justifyContent="center" my={4}>
       <Button
