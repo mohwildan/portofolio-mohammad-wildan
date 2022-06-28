@@ -22,7 +22,7 @@ const Contact = () => {
         <form style={{ marginBottom: "2rem" }}>
           <Stack spacing={4} h="calc(100vh - 200px)" justifyContent="center">
             <InputAnimations>
-              <Text fontSize="1.3rem">Your Name</Text>
+              <Text fontSize="1.1rem">Your Name</Text>
               <InputGroup mt={2}>
                 <InputLeftElement
                   pointerEvents="none"
@@ -39,7 +39,7 @@ const Contact = () => {
               </InputGroup>
             </InputAnimations>
             <InputAnimations delay={0.2}>
-              <Text fontSize="1.3rem">Your Email</Text>
+              <Text fontSize="1.1rem">Your Email</Text>
               <InputGroup mt={2}>
                 <InputLeftElement
                   pointerEvents="none"
@@ -56,7 +56,7 @@ const Contact = () => {
               </InputGroup>
             </InputAnimations>
             <InputAnimations delay={0.3}>
-              <Text fontSize="1.3rem">Your Phone</Text>
+              <Text fontSize="1.1rem">Your Phone</Text>
               <InputGroup mt={2}>
                 <InputLeftElement
                   pointerEvents="none"
@@ -73,7 +73,7 @@ const Contact = () => {
               </InputGroup>
             </InputAnimations>
             <InputAnimations delay={0.4}>
-              <Text fontSize="1.3rem">Message</Text>
+              <Text fontSize="1.1rem">Message</Text>
               <Textarea
                 borderColor={useColorModeValue("violet", "orange")}
                 border="2px solid"

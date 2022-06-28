@@ -120,7 +120,7 @@ const Home: NextPage = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="" target="_blank">
+              <Link href="https://github.com/mohwildan" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme={useColorModeValue("purple", "orange")}
@@ -131,7 +131,7 @@ const Home: NextPage = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="" target="_blank">
+              <Link href="https://mobile.twitter.com/wildanmhd_?t=iBktM4wM_n6mKXkSSDhryA&s=09" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme={useColorModeValue("purple", "orange")}
@@ -142,7 +142,7 @@ const Home: NextPage = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="" target="_blank">
+              <Link href="https://www.instagram.com/willdan.mhd/" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme={useColorModeValue("purple", "orange")}
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="" target="_blank">
+              <Link href="https://www.linkedin.com/in/mohammad-wildan/" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme={useColorModeValue("purple", "orange")}

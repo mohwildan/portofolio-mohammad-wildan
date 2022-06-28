@@ -6,6 +6,8 @@ import {
   Link,
   Menu,
   MenuButton,
+  MenuItem,
+  MenuList,
   Stack,
   useColorModeValue,
 } from "@chakra-ui/react";
@@ -63,7 +65,7 @@ const Navbar = (props: any) => {
         </Stack>
 
         <Box display="flex" alignSelf="flex-end">
-        <ToggleDarkMode />
+          <ToggleDarkMode />
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
             <Menu isLazy>
               <MenuButton
@@ -72,7 +74,20 @@ const Navbar = (props: any) => {
                 variant="outline"
                 aria-label="Options"
               />
-             
+              <MenuList
+                minW="150px"
+                bg={useColorModeValue("#ffffff40", "#20202380")}
+              >
+                 <NextLink href="/">
+                  <MenuItem>Home</MenuItem>
+                </NextLink>
+                <NextLink href="/porfolio">
+                  <MenuItem>Porfolio</MenuItem>
+                </NextLink>
+                <NextLink href="/contact">
+                  <MenuItem>Contact</MenuItem>
+                </NextLink>
+              </MenuList>
             </Menu>
           </Box>
         </Box>
