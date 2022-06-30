@@ -5,8 +5,10 @@ import Layout from "../components/Layout/articel";
 import Sections from "../components/Sections";
 import jobbss from "../public/figma/jobbss.png";
 import mechamaru from "../public/figma/mechamaru.png";
-import porfolio1 from "../public/figma/porfolio1.png"
-import porfolio2 from "../public/figma/porfolio2.png"
+import porfolio1 from "../public/figma/porfolio1.png";
+import porfolio2 from "../public/figma/porfolio2.png";
+import chatRechat from "../public/figma/chat-rechat.png";
+import Porfolio0 from "../public/figma/porfolio.png";
 
 const Porfolio: NextPage = () => {
   return (
@@ -18,6 +20,18 @@ const Porfolio: NextPage = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Sections>
             <PorfolioGrid
+              title="chat-rechat"
+              image={chatRechat}
+              stack="Nextjs, Chakra UI, Farmer Motions"
+              linkLive="https://chat-rechat.vercel.app"
+              linkCode="https://github.com/mohwildan/CHAT-N-RECHAT"
+            >
+              Sebuah aplikasi chatting yang bisa bikin kamu lupa diri, tapi
+              tidak lupa jasa pahlawan!
+            </PorfolioGrid>
+          </Sections>
+          <Sections delay={0.1}>
+            <PorfolioGrid
               title="jobbss"
               image={jobbss}
               stack="Nextjs, Chakra UI, Farmer Motions ,
@@ -28,7 +42,7 @@ Prisma ORM , Posgres SQL, Next Auth"
               membantu anda untuk mencari pekerjaan di semua bidang
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.1}>
+          <Sections delay={0.2}>
             <PorfolioGrid
               title="MechaMaru"
               image={mechamaru}
@@ -39,7 +53,18 @@ Prisma ORM , Posgres SQL, Next Auth"
               menawarkan jasa pembuatan design website yang menarik
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.2}>
+          <Sections delay={0.3}>
+            <PorfolioGrid
+              title="Porfolio"
+              image={Porfolio0}
+              stack="Nextjs, Chakra UI, Farmer Motions"
+              linkLive="https://projeck-next-in-sass.netlify.app"
+              linkCode="https://github.com/mohwildan/nextjs-sass"
+            >
+              Porfolio Pribadi Saya
+            </PorfolioGrid>
+          </Sections>
+          <Sections delay={0.4}>
             <PorfolioGrid
               title="Porfolio 1"
               image={porfolio1}
@@ -50,7 +75,7 @@ Prisma ORM , Posgres SQL, Next Auth"
               Porfolio Pribadi Saya
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.3}>
+          <Sections delay={0.5}>
             <PorfolioGrid
               title="Porfolio 2"
               image={porfolio2}
