@@ -11,7 +11,6 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import NextLink from "next/link";
 import Image from "next/image";
 import { BioSections, BioYear } from "../components/Bio";
 import ButtonMain from "../components/ButtonMain";
@@ -25,13 +24,14 @@ import {
   IoLogoTwitter,
   IoLogoLinkedin,
 } from "react-icons/io";
-
+import { useRouter } from "next/router";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: (prop) => ["width", "height", "src", "alt"].includes(prop),
 });
 
 const Home: NextPage = () => {
+  const {push} = useRouter()
   return (
     <Layout>
       <Container>
@@ -120,7 +120,9 @@ const Home: NextPage = () => {
               <SkillText>Chakra UI</SkillText>
             </Flex>
           </Flex>
-          <ButtonMain>My Porfolio</ButtonMain>
+          <div onClick={() => push("/porfolio")}>
+            <ButtonMain>My Porfolio</ButtonMain>
+          </div>
         </Sections>
         <Sections delay={0.4}>
           <Heading as="h3" variant="sections">
