@@ -11,6 +11,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import type { NextPage } from "next";
+import NextLink from "next/link";
 import Image from "next/image";
 import { BioSections, BioYear } from "../components/Bio";
 import ButtonMain from "../components/ButtonMain";
@@ -18,7 +19,12 @@ import Layout from "../components/Layout/articel";
 import Paragraf from "../components/Paragraf";
 import Sections from "../components/Sections";
 import SkillText from "../components/SkillText";
-import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io";
+import {
+  IoLogoGithub,
+  IoLogoInstagram,
+  IoLogoTwitter,
+  IoLogoLinkedin,
+} from "react-icons/io";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: (prop) => ["width", "height", "src", "alt"].includes(prop),
@@ -73,8 +79,12 @@ const Home: NextPage = () => {
             knowledge, especially the programming world. I&apos;m currently
             looking for a job to add to my professional experience.
           </Paragraf>
-
-          <ButtonMain>Download CV</ButtonMain>
+          <a
+            href="../public/pdf/Resume Desainer Grafis Gradieni Warna-warni.pdf"
+            download
+          >
+            <ButtonMain>Download CV</ButtonMain>
+          </a>
         </Sections>
         <Sections delay={0.2}>
           <Heading variant="sections">Bio</Heading>
@@ -131,7 +141,10 @@ const Home: NextPage = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://mobile.twitter.com/wildanmhd_?t=iBktM4wM_n6mKXkSSDhryA&s=09" target="_blank">
+              <Link
+                href="https://mobile.twitter.com/wildanmhd_?t=iBktM4wM_n6mKXkSSDhryA&s=09"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme={useColorModeValue("purple", "orange")}
@@ -142,7 +155,10 @@ const Home: NextPage = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.instagram.com/willdan.mhd/" target="_blank">
+              <Link
+                href="https://www.instagram.com/willdan.mhd/"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme={useColorModeValue("purple", "orange")}
@@ -153,7 +169,10 @@ const Home: NextPage = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.linkedin.com/in/mohammad-wildan/" target="_blank">
+              <Link
+                href="https://www.linkedin.com/in/mohammad-wildan/"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme={useColorModeValue("purple", "orange")}
