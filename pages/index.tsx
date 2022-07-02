@@ -26,6 +26,7 @@ import {
   IoLogoLinkedin,
 } from "react-icons/io";
 
+
 const ProfileImage = chakra(Image, {
   shouldForwardProp: (prop) => ["width", "height", "src", "alt"].includes(prop),
 });
@@ -79,10 +80,7 @@ const Home: NextPage = () => {
             knowledge, especially the programming world. I&apos;m currently
             looking for a job to add to my professional experience.
           </Paragraf>
-          <a
-            href="../public/pdf/Resume Desainer Grafis Gradieni Warna-warni.pdf"
-            download
-          >
+          <a href="/pdf/pdf.pdf" download="cv-mohammad-wildan.pdf">
             <ButtonMain>Download CV</ButtonMain>
           </a>
         </Sections>
