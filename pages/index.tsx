@@ -31,17 +31,17 @@ const ProfileImage = chakra(Image, {
 });
 
 const Home: NextPage = () => {
-  const {push} = useRouter()
+  const { push } = useRouter();
   return (
     <Layout>
       <Container>
         <Box display={{ md: "flex" }} alignItems="center">
           <Box flexGrow={1}>
             <Heading as="h2" fontSize={{ base: "1.7rem", md: "2.5rem" }}>
-              Mohammad Wildan{" "}
+              Mohammad Wildan
             </Heading>
             <p>
-              Front End Web Developer{" "}
+              Front End Web Developer
               <span style={{ color: "#F73D93" }}>/</span> Responsif Web Design
             </p>
           </Box>

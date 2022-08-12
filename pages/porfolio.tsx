@@ -11,6 +11,7 @@ import chatRechat from "../public/figma/chat-rechat.png";
 import Porfolio0 from "../public/figma/porfolio.png";
 import Collosal from "../public/figma/collosal.png";
 import Zeitplan from "../public/figma/Zeitlan.png";
+import Lalasia from "../public/figma/lalasia.png"
 
 const Porfolio: NextPage = () => {
   return (
@@ -45,6 +46,17 @@ const Porfolio: NextPage = () => {
           </Sections>
           <Sections delay={0.2}>
             <PorfolioGrid
+              title="Lalasia"
+              image={Lalasia}
+              stack="Nextjs, Chakra UI, Farmer Motions"
+              linkLive="https://lalasia-beta.vercel.app/"
+              linkCode="https://github.com/mohwildan/-Lalasia"
+            >
+              Untuk rumah supaya lebih bewarna
+            </PorfolioGrid>
+          </Sections>
+          <Sections delay={0.3}>
+            <PorfolioGrid
               title="chat-rechat"
               image={chatRechat}
               stack="Nextjs, Chakra UI, Farmer Motions"
@@ -55,7 +67,7 @@ const Porfolio: NextPage = () => {
               tidak lupa jasa pahlawan!
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.3}>
+          <Sections delay={0.4}>
             <PorfolioGrid
               title="jobbss"
               image={jobbss}
@@ -67,7 +79,7 @@ Prisma ORM , Posgres SQL, Next Auth"
               membantu anda untuk mencari pekerjaan di semua bidang
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.4}>
+          <Sections delay={0.5}>
             <PorfolioGrid
               title="MechaMaru"
               image={mechamaru}
@@ -78,7 +90,7 @@ Prisma ORM , Posgres SQL, Next Auth"
               menawarkan jasa pembuatan design website yang menarik
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.5}>
+          <Sections delay={0.6}>
             <PorfolioGrid
               title="Porfolio"
               image={Porfolio0}
@@ -89,7 +101,7 @@ Prisma ORM , Posgres SQL, Next Auth"
               Porfolio Pribadi Saya
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.6}>
+          <Sections delay={0.7}>
             <PorfolioGrid
               title="Porfolio 1"
               image={porfolio1}
@@ -100,7 +112,7 @@ Prisma ORM , Posgres SQL, Next Auth"
               Porfolio Pribadi Saya
             </PorfolioGrid>
           </Sections>
-          <Sections delay={0.7}>
+          <Sections delay={0.8}>
             <PorfolioGrid
               title="Porfolio 2"
               image={porfolio2}
