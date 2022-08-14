@@ -96,7 +96,7 @@ const Home: NextPage = () => {
           </BioSections>
           <BioSections>
             <BioYear>2022</BioYear>
-            Now studying at STIMIK El Rahma University
+            Now studying at STIMIK El Rahma University.
           </BioSections>
         </Sections>
         <Sections delay={0.3}>
