@@ -110,14 +110,19 @@ const Home: NextPage = () => {
               <SkillText>Sass</SkillText>
             </Flex>
             <Flex flexDir="column">
-              <SkillText>Javascript</SkillText>
+              <SkillText>Typescript</SkillText>
               <SkillText>React js</SkillText>
               <SkillText>Next js</SkillText>
             </Flex>
             <Flex flexDir="column">
-              <SkillText>Rest API</SkillText>
+              <SkillText>Tailwindcss</SkillText>
               <SkillText>Styled componen</SkillText>
               <SkillText>Chakra UI</SkillText>
+            </Flex>
+            <Flex flexDir="column">
+              <SkillText>Graphql</SkillText>
+              <SkillText>Apollo Servern</SkillText>
+              <SkillText>Rest Api</SkillText>
             </Flex>
           </Flex>
           <div onClick={() => push("/porfolio")}>
