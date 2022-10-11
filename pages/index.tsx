@@ -80,7 +80,7 @@ const Home: NextPage = () => {
             knowledge, especially the programming world. I&apos;m currently
             looking for a job to add to my professional experience.
           </Paragraf>
-          <a href="/pdf/pdf.pdf" download="cv-mohammad-wildan.pdf">
+          <a href="/pdf/cv-mohammad-wildan.pdf" download="cv-mohammad-wildan.pdf">
             <ButtonMain>Download CV</ButtonMain>
           </a>
         </Sections>
